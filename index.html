@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notebook Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Notebook Viewer</h1>
+        <select id="notebook-select">
+            <option value="">Select a notebook</option>
+            <option value="Energy_consumption">Energy Consumption Analysis</option>
+            <option value="Hourly_AEP">Hourly AEP Data Analysis</option>
+            <option value="sp500_Index">S&P 500 Index Analysis</option>
+        </select>
+        <button id="view-notebook-btn">View Notebook</button>
+        <div id="notebook-content"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
